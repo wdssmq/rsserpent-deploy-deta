@@ -33,7 +33,7 @@ jobs:
     - name: Deploy to Deta.sh
       env:
         DETA_ACCESS_TOKEN: ${{ secrets.DETA_TOKEN }}
-        MICRO_NAME: rsserpent
+        MICRO_NAME: ${{ secrets.DETA_TOKEN }}
       run: |
         curl -fsSL https://get.deta.dev/cli.sh | sh
         export PATH="$HOME/.deta/bin:$PATH"
