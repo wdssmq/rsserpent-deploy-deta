@@ -27,8 +27,8 @@ rsserpent-plugin-manhuagui @ git+https://github.com/wdssmq/rsserpent_plugin_manh
 six==1.16.0
 sniffio==1.2.0
 starlette==0.16.0
-tqdm==4.63.1
+tqdm==4.64.0
 typing_extensions==4.1.1
 urllib3==1.26.9
 websockets==9.1
-zipp==3.7.0
+zipp==3.8.0
